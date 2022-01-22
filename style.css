@@ -1,0 +1,218 @@
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/leone-venter-VieM9BdZKFo-unsplash.jpg");
+  background-position: center;
+  padding: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* utilities */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: nunito;
+  overflow-x: hidden;
+}
+
+/* logo */
+.navbar-brand {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.nav-link {
+  font-size: medium;
+}
+
+.display-4 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* content */
+.content {
+  width: 100%;
+  background-color: #ddd;
+  padding: 4%;
+}
+
+.content h1 {
+  letter-spacing: 5pt;
+}
+
+.skill {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.html {
+  width: 90%;
+  padding: 1%;
+  background-color: #518874;
+}
+
+.english {
+  width: 60%;
+  padding: 1%;
+  background-color: #62b1f1;
+}
+
+.arabic {
+  width: 70%;
+  padding: 1%;
+  background-color: #fa7268;
+}
+
+.game {
+  width: 30%;
+  padding: 1%;
+  background-color: #a0a0a0;
+}
+
+/* GALLERY */
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* CONTACT */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 15%;
+  margin-top: 5%;
+}
+
+.text {
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightseagreen;
+  color: white;
+  text-align: left;
+}
+
+.footer p {
+  margin: 5px;
+  padding-left: 15px;
+}
+
+.footer li a {
+  float: right;
+  margin: 5px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+.footer li a:hover {
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+/* HERO JUMBOTRON */
+
+.jumbotron h1 {
+  font-size: 50px;
+  letter-spacing: 5pt;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.col {
+  margin-bottom: 30%;
+}
