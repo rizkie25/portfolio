@@ -1,4 +1,3 @@
-
 /* utilities */
 * {
   margin: 0;
@@ -12,9 +11,9 @@
 
 /* logo */
 .navbar-brand {
-  font-family: poppins;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .navbar {
@@ -39,63 +38,6 @@
 
 .content h1 {
   letter-spacing: 5pt;
-}
-
-.skill {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: black;
-}
-
-.html {
-  width: 90%;
-  padding: 1%;
-  background-color: #518874;
-}
-
-.english {
-  width: 60%;
-  padding: 1%;
-  background-color: #62b1f1;
-}
-
-.arabic {
-  width: 70%;
-  padding: 1%;
-  background-color: #fa7268;
-}
-
-.game {
-  width: 30%;
-  padding: 1%;
-  background-color: #a0a0a0;
-}
-
-/* GALLERY */
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
 }
 
 /* Style the buttons */
@@ -158,8 +100,7 @@ input[type="submit"]:hover {
 
 /* HERO JUMBOTRON */
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/images/leone-venter-VieM9BdZKFo-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/leone-venter-VieM9BdZKFo-unsplash.jpg");
   background-position: center;
   padding: 10%;
   background-repeat: no-repeat;
@@ -168,12 +109,16 @@ input[type="submit"]:hover {
 
 .jumbotron h1 {
   font-size: 50px;
-  letter-spacing: 5pt;
+  letter-spacing: 3pt;
   color: white;
 }
 
-.jumbotron a{
-  background-color: teal;;
+.tombol a {
+  background-color: teal;
+}
+
+.tombol a:hover {
+  color: black;
 }
 
 .jumbotron a:hover {
@@ -200,7 +145,13 @@ input[type="submit"]:hover {
   margin-bottom: 30%;
 }
 
+/* open */
+.open h1 {
+  text-align: center;
+  font-family: mada;
+}
 
+/* about */
 /* content */
 .content-3-1 .btn:focus,
 .content-3-1 .btn:active {
@@ -218,6 +169,10 @@ input[type="submit"]:hover {
 
 .content-3-1 .right-column {
   width: 100%;
+}
+
+.content-3-1 .right-column h3 {
+  margin-bottom: 5%;
 }
 
 .content-3-1 .title-text {
@@ -292,15 +247,26 @@ footer {
 }
 
 footer .logo {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 38px;
   color: #fafafd;
 }
 
 footer .social-media {
-  margin-top: 55px;
+  margin-top: 30px;
+  letter-spacing: 5pt;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: black;
+  transition: 0.3s ease;
 }
 
 footer .copyright {
@@ -330,4 +296,142 @@ footer .nav-footer a {
 
 footer li {
   margin-bottom: 16px;
+}
+
+header.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
+}
+header.masthead:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212529;
+  opacity: 0.5;
+}
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  color: #fff;
+}
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+header.masthead .page-heading h1,
+header.masthead .page-heading .h1,
+header.masthead .site-heading h1,
+header.masthead .site-heading .h1 {
+  font-size: 3rem;
+}
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin-top: 0.625rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading h1,
+header.masthead .post-heading .h1 {
+  font-size: 2.25rem;
+}
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+header.masthead .post-heading .subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.75rem 0 2rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .page-heading h1,
+  header.masthead .page-heading .h1,
+  header.masthead .site-heading h1,
+  header.masthead .site-heading .h1 {
+    font-size: 5rem;
+  }
+  header.masthead .post-heading h1,
+  header.masthead .post-heading .h1 {
+    font-size: 3.5rem;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 1.875rem;
+  }
+}
+
+/* galery */
+/* Gallery Section */
+.gallery-section {
+  width: 100%;
+  padding: 60px 0;
+  background: #f1f1f1;
+}
+
+.inner-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.gallery-section h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.border {
+  width: 180px;
+  height: 4px;
+  background: #333;
+  margin: 60px auto;
+}
+
+.gallery-section .gallery {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery-section .image {
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-section .image img {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.gallery-section .image:hover img {
+  transform: scale(1.4) rotate(15deg);
 }

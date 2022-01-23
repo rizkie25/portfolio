@@ -1,0 +1,109 @@
+/* Side */
+
+.side {
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 80px;
+  color: #333333;
+  width: 40%;
+  background-color: #f7fafc;
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -5px;
+}
+
+/* Comment Side */
+
+.side .komen {
+  align-content: center !important;
+}
+
+.side .komen form input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  font-family: "Open Sans", sans-serif;
+}
+
+.side .komen form input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  font-family: "Open Sans", sans-serif;
+}
+
+.side .komen form textarea {
+  width: 90%;
+  height: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  font-family: "Open Sans", sans-serif;
+}
+
+.side .komen form button[type="submit"] {
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.side .komen form button[type="submit"]:hover {
+  background-color: #0c67c9;
+}
+
+.copy .text h6 {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.side .komen form button[type="button"] {
+  width: 45%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffc107;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.side .komen form button[type="button"]:hover {
+  background-color: #dea908;
+}
+
+/* End Comment Side */
+
+/* End Side */
+
+@media only screen and (max-width: 780px) {
+  .side {
+    width: 50%;
+  }
+
+  input[type="radio"] {
+    font-size: 10px;
+  }
+}
