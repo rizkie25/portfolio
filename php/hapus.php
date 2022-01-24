@@ -7,7 +7,7 @@ if( hapus($id) > 0) {
     echo "
         <script>
             alert('Data Berhasil Dihapus');
-            document.location.href ='../pages/member.php';
+            document.location.href ='../pages/members.php';
         </script>
         ";
         }
@@ -15,7 +15,7 @@ if( hapus($id) > 0) {
     echo "
         <script>
             alert('Data Gagal Dihapus');
-            document.location.href ='../pages/member.php';
+            document.location.href ='../pages/members.php';
         </script>
         ";
     }

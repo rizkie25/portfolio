@@ -2,25 +2,24 @@
 require '../php/functions.php';
 $data = query("SELECT * FROM anggota");
 
-if( isset( $_POST["submit"])) {
+if (isset($_POST["submit"])) {
     //cek data berhasil atau tidak masuk ke database
-        if ( tambahmrd($_POST) > 0 ) {
-            echo "
+    if (tambahmrd($_POST) > 0) {
+        echo "
                 <script>
                     alert('Data Berhasil Ditambahkan');
-                    document.location.href ='./member.php';
+                    document.location.href ='./members.php';
                 </script>
                 ";
-        }
-        else {
-            echo "
+    } else {
+        echo "
             <script>
                 alert('Data Gagal Ditambahkan');
-                document.location.href ='./member.php';
+                document.location.href ='./members.php';
             </script>
             ";
-        }
     }
+}
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +38,7 @@ if( isset( $_POST["submit"])) {
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     <!-- my css -->
     <link rel="stylesheet" href="../style.css" />
@@ -48,7 +47,7 @@ if( isset( $_POST["submit"])) {
     <script src="script.js"></script>
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>Data Member</title>
+    <title>Data Anggota</title>
 </head>
 
 <body>
@@ -84,39 +83,42 @@ if( isset( $_POST["submit"])) {
         </div>
     </nav>
 
-    <div class="tambah">
-
-        <div id="examanggota" style="display: none;" class="anggota">
-            <!-- Konten anggota -->
-            <div class="anggota-content">
-                <span class="close">&times;</span>
-                <h1>Tambah Data anggota</h1>
-                <hr>
-                <form action="" method="post">
-                    <br>
-                    <p class="ket">Nama Lengkap</p>
-                    <input type="text" name="nama" autofocus autocomplete="off" required>
-                    <br>
-                    
-                    <p class="ket">Jenis Kelamin</p>
-                    <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
-                    <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan
-                    <br>
-                    <p class="ket">Kelas</p>
-                    <input type="text" name="kelas" autofocus autocomplete="off" required>
-                    <br>
-                    <p class="ket">Jabatan</p>
-                    <input type="text" name="jabatan" autofocus autocomplete="off" required>
-                    <br>
-                    <div class="anggota-footer">
-                        <br>
-                        <input type="reset" value="Hapus">
-                        <input type="submit" name="submit" value="Tambah">
+    <!-- <div class="tambah">
+        <div id="examanggota" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Tambah Data Anggota</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </form>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <br>
+                            <p class="ket">Nama Lengkap</p>
+                            <input type="text" name="nama" autofocus autocomplete="off" required>
+                            <br>
+
+                            <p class="ket">Jenis Kelamin</p>
+                            <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+                            <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan
+                            <br>
+                            <p class="ket">Kelas</p>
+                            <input type="text" name="kelas" autofocus autocomplete="off" required>
+                            <br>
+                            <p class="ket">Jabatan</p>
+                            <input type="text" name="jabatan" autofocus autocomplete="off" required>
+                            <br>
+                            <div class="anggota-footer">
+                                <br>
+                                <input type="reset" value="Hapus">
+                                <input type="submit" name="submit" value="Tambah">
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- tables -->
     <div class="container-fluid mt-3">
@@ -124,7 +126,10 @@ if( isset( $_POST["submit"])) {
             <div class="col-sm-5">
                 <h4>Data anggota</h4>
             </div>
-            <button id="exambutton" onclick="tambah()">Tambah Data anggota</button>
+            <div class="col-sm-5">
+                <button id="exambutton" class="btn btn-warning" onclick="tambah()">Tambah Data anggota</button>
+            </div>
+
         </div>
         <table class="table table-hover mt-3">
             <thead>
@@ -148,7 +153,7 @@ if( isset( $_POST["submit"])) {
                         <td><?= $row["kelas"]; ?></td>
                         <td><?= $row["jabatan"]; ?></td>
                         <td>
-                            <a href="./ubah_member.php?id=<?= $row["id"]; ?>" class="btn btn-warning" role="button">Edit</a>
+                            <a href="./ubah_members.php?id=<?= $row["id"]; ?>" class="btn btn-warning" role="button">Edit</a>
                             <a href="../php/hapus.php?id=<?= $row["id"]; ?>" onclick=" return confirm('Apakah Anda Sudah Yakin ?');" class="btn btn-danger" role="button">Hapus</a>
                         </td>
                     </tr>

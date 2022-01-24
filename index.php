@@ -50,6 +50,9 @@
           <li class="nav-item">
             <a class="nav-link" href="./pages/members.php">Members</a>
           </li>
+          <!-- <li class="dark-mode">
+          <button onclick="myFunction()">Dark mode</button>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -62,14 +65,14 @@
   </div>
 
   <!-- about -->
-  
+
   <section id="content" class="h-100 w-100 bg-white" style="box-sizing: border-box;">
-  <div class="open">
-  <h1>بسم الله الرحمن الرحيم</h1>
-  </div>
+    <div class="open">
+      <h1>بسم الله الرحمن الرحيم</h1>
+    </div>
     <div class="content-3-1 container-xxl mx-auto position-relative" style="font-family: 'Poppins', sans-serif">
       <div class="d-flex flex-lg-row flex-column align-items-center">
-        
+
         <!-- Left Column -->
         <div class="img-hero text-center justify-content-center d-flex">
           <img id="hero" class="img-fluid" src="./assets/images/Divisi pusat Informasi ada background.png" alt="" />
@@ -87,7 +90,7 @@
                 General
               </h4>
               <p class="text-caption">
-                Hai! Kami dari C I D, jadi C I D itu adalah singkatan dari Central Information Department dan kalo yang mashhur anak ALTIE sih I'lan namanya. Divisi ini sebelumnya tidak ada, hanya ada divisi Bahasa namun seiring berkembangnya ALTIE divisi Bahasa pun dipecah menjadi dua yaitu divisi Informasi yang proker utamanya adalah memberikan informasi dengan aktual dan dengan menggunakan bahasa inggris maupun arab. tentunya jumlah kami tidak sebanyak divisi Bahasa yang jumlahnya kurang lebih bisa 20 orang itupun hanya putra sedangkan jumlah kami hanya enam orang. namun banyak sekali pelajaran yang bisa kita ambil dari apa yang akan kalian jalani. 
+                Hai! Kami dari C I D, salam kenal. jadi C I D itu adalah singkatan dari Central Information Department dan kalo yang mashhur sama anak ALTIE sih I'lan namanya. Divisi ini sebelumnya tidak ada, hanya ada divisi Bahasa namun seiring berkembangnya ALTIE divisi Bahasa pun dipecah menjadi dua yaitu divisi Informasi yang proker utamanya adalah memberikan informasi dengan aktual dan dengan menggunakan bahasa inggris maupun arab. tentunya jumlah kami tidak sebanyak divisi Bahasa yang jumlahnya kurang lebih bisa 20 orang itupun hanya putra sedangkan jumlah kami hanya enam orang. namun banyak sekali pelajaran yang bisa kita ambil dari apa yang akan kalian jalani.
               </p>
             </li>
             <li class="list-unstyled" style="margin-bottom: 2rem">
@@ -98,7 +101,7 @@
                 Boarding School
               </h4>
               <p class="text-caption">
-                Pondok Pesanter AL-ITTIHAD, yang didirikan pada tahun 1997 M
+                Pondok Pesanter AL-ITTIHAD, yang dipimpin oleh KH. Kamali Abdul Ghani bersama istri tercintanya Dr. Hj. Ety Muflihah, M.Pd mendirikan Pondok Pesantren AL-ITTIHAD pada tahun 1997 M beralamatkan Jl. Raya Bandung No.03, Bojong, Karangtengah, Kabupaten Cianjur, Jawa Barat 43281
               </p>
             </li>
             <li class="list-unstyled" style="margin-bottom: 4rem">
@@ -109,11 +112,11 @@
                 Goals & Expectations
               </h4>
               <p class="text-caption">
-                Semua yang kami lakukan bukan semata-mata hanya  untuk memenuhi kewajiban dari amanah yang telah Abi berikan, namun juga berkah dari apa yang telah kami perjuangkan selama masa khidmat kami.
+                Semua yang kami lakukan bukan semata-mata hanya untuk memenuhi kewajiban dari amanah yang telah Abi berikan, namun juga berkah dari apa yang telah kami perjuangkan selama masa khidmat kami.
                 Harapan kami untuk masa khidmat selanjutnya dan seterusnya adalah menghilangnya wabah yang sedang melanda bumi ini, karena kami sangat ingin kembali bisa mencium tanganmu Abi.
               </p>
               <p>
-              آمين
+                آمين
               </p>
             </li>
           </ul>
@@ -145,23 +148,23 @@
         <div class="border"></div>
         <div class="gallery">
 
-          <a href="./assets/images/DSC00835.jpg" class="image" title="Sneaker Web">
+          <a href="./assets/images/DSC00835.jpg" class="image" title="I'lan Putra">
             <img src="./assets/images/DSC00835.jpg" alt="">
           </a>
 
-          <a href="./assets/images/DSC00837.jpg" class="image" title="Sneaker Web">
+          <a href="./assets/images/DSC00837.jpg" class="image" title="I'lan Putri">
             <img src="./assets/images/DSC00837.jpg" alt="">
           </a>
 
-          <a href="./assets/images/DSC00819.jpg" class="image" title="Ordering Ticket">
+          <a href="./assets/images/DSC00819.jpg" class="image" title="Koordinator">
             <img src="./assets/images/DSC00819.jpg" alt="">
           </a>
 
-          <a href="./assets/images/IMG_0187.jpg" class="image" title="Web Elektro Industri">
+          <a href="./assets/images/IMG_0187.jpg" class="image" title="Teletubbies">
             <img src="./assets/images/IMG_0187.jpg" alt="">
           </a>
 
-          <a href="./assets/images/DSC00841.jpg" class="image" title="Web Elektro Industri">
+          <a href="./assets/images/DSC00841.jpg" class="image" title="I'lan Putra & Putri">
             <img src="./assets/images/DSC00841.jpg" alt="">
           </a>
         </div>
@@ -172,7 +175,6 @@
 
   <!-- contact -->
   <section id="contact">
-    <!-- Main Content-->
     <div class="container position-relative px-4 px-lg-5 mt-lg-4">
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
@@ -222,7 +224,7 @@
                   <div class="text-center text-danger mb-3">Error sending message!</div>
                 </div>
                 <!-- Submit Button-->
-                <a class="btn btn-primary btn-lg" href="#" role="button">Send</a>
+                <a class="btn btn-primary btn-lg" href="" role="button">Send</a>
               </form>
             </div>
           </div>
@@ -241,17 +243,17 @@
           </div>
           <div class="social-media">
             <a href="https://www.facebook.com/rizkie.rizkie.16121/" target="_blank">
-            <h1>
-              <ion-icon name="logo-facebook"></ion-icon>
+              <h1>
+                <ion-icon name="logo-facebook"></ion-icon>
             </a>
             <a href="https://www.instagram.com/r.zkie_/" target="_blank">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
             <a href="https://github.com/rizkie25" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
+              <ion-icon name="logo-github"></ion-icon>
             </a>
             <a href="https://www.figma.com/files/user/1052776460228515909?fuid=1052776460228515909" target="_blank">
-            <ion-icon name="logo-figma"></ion-icon>
+              <ion-icon name="logo-figma"></ion-icon>
             </a>
             </h1>
           </div>

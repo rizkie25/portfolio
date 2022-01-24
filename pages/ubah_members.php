@@ -12,7 +12,7 @@ require '../php/functions.php';
             echo "
                 <script>
                     alert('Data Berhasil Diubah');
-                    document.location.href ='./member.php';
+                    document.location.href ='./members.php';
                 </script>
                 ";
         }
@@ -20,7 +20,7 @@ require '../php/functions.php';
             echo "
             <script>
                 alert('Data Gagal Diubah');
-                document.location.href ='./member.php';
+                document.location.href ='./members.php';
             </script>
             ";
         }
@@ -34,7 +34,7 @@ require '../php/functions.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Member</title>
+    <title>Members</title>
     <link rel="stylesheet" href="pages.css">
 </head>
 <body>

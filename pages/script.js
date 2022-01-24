@@ -14,9 +14,9 @@ function tambah() {
   };
 
   // Saat Pengguna Menekan Tombol X (close), simulasikan efek tutup
-  span.onclick = function () {
+  span.addEventListener("click", function () {
     anggota.style.display = "none";
-  };
+  });
 
   // Saat Pengguna menekan sesuatu, diluar dari anggota, simulasikan efek tutup
   window.onclick = function (event) {
