@@ -83,24 +83,23 @@ if (isset($_POST["submit"])) {
         </div>
     </nav>
 
-    <!-- <div class="tambah">
+    <div class="tambah">
         <div id="examanggota" class="modal" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Tambah Data Anggota</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-placeholder="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form action="" method="post">
-                            <br>
+                        <form action="" method="POST">
                             <p class="ket">Nama Lengkap</p>
                             <input type="text" name="nama" autofocus autocomplete="off" required>
                             <br>
-
                             <p class="ket">Jenis Kelamin</p>
                             <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
                             <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan
+                            <br>
                             <br>
                             <p class="ket">Kelas</p>
                             <input type="text" name="kelas" autofocus autocomplete="off" required>
@@ -118,7 +117,7 @@ if (isset($_POST["submit"])) {
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- tables -->
     <div class="container-fluid mt-3">
@@ -153,8 +152,8 @@ if (isset($_POST["submit"])) {
                         <td><?= $row["kelas"]; ?></td>
                         <td><?= $row["jabatan"]; ?></td>
                         <td>
-                            <a href="./ubah_members.php?id=<?= $row["id"]; ?>" class="btn btn-warning" role="button">Edit</a>
-                            <a href="../php/hapus.php?id=<?= $row["id"]; ?>" onclick=" return confirm('Apakah Anda Sudah Yakin ?');" class="btn btn-danger" role="button">Hapus</a>
+                            <a href="./ubah_members.php ?id=<?= $row["id"]; ?>" class="btn btn-warning" role="button">Edit</a>
+                            <a href="../php/hapus.php ?id=<?= $row["id"]; ?>" onclick=" return confirm('Apakah Anda Sudah Yakin ?');" class="btn btn-danger" role="button">Hapus</a>
                         </td>
                     </tr>
                 </tbody>

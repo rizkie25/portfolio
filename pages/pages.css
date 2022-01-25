@@ -19,6 +19,7 @@ h2 {
 
 .side .komen {
   align-content: center !important;
+  font-family: poppins;
 }
 
 .side .komen form input[type="text"] {
@@ -28,7 +29,6 @@ h2 {
   border-radius: 3px;
   margin-top: 5px;
   box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
-  font-family: "Open Sans", sans-serif;
 }
 
 .side .komen form input[type="email"] {
@@ -38,7 +38,11 @@ h2 {
   border-radius: 3px;
   margin-top: 5px;
   box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
-  font-family: "Open Sans", sans-serif;
+  font-family: poppins;
+}
+
+.side .komen .title-k {
+  font-family: poppins;
 }
 
 .side .komen form textarea {
@@ -49,23 +53,39 @@ h2 {
   border-radius: 3px;
   margin-top: 5px;
   box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
-  font-family: "Open Sans", sans-serif;
+  font-family: poppins;
 }
 
 .side .komen form button[type="submit"] {
-  width: 50%;
+  width: 46%;
   height: 40px;
   padding: 5px;
   border: none;
   border-radius: 3px;
   background-color: #007bff;
   box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
-  color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: poppins;
 }
 
 .side .komen form button[type="submit"]:hover {
   background-color: #0c67c9;
+  color: #000;
+}
+
+.side .komen form button[type="reset"] {
+  width: 46%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  color: white;
+  font-family: poppins;
+}
+
+.side .komen form button[type="reset"]:hover {
+  background-color: red;
 }
 
 .copy .text h6 {
@@ -79,7 +99,8 @@ a {
 }
 
 .side .komen form button[type="button"] {
-  width: 45%;
+  margin-top: 10px;
+  width: 47%;
   height: 40px;
   padding: 5px;
   border: none;
@@ -87,7 +108,7 @@ a {
   background-color: #ffc107;
   box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: poppins;
 }
 
 .side .komen form button[type="button"]:hover {
@@ -111,12 +132,12 @@ a {
 /* Button */
 .tambah button {
   margin-top: 80px;
-  font-family: "Helvetica", sans-serif;
+  font-family: poppins;
   font-size: 13px;
   border-radius: 5px;
   padding: 10px;
   background-color: #007bff;
-  color: #fff;
+  color: black;
   text-align: center;
   margin-left: 1150px;
   border: 0;
@@ -138,7 +159,7 @@ a {
 }
 
 .anggota-content {
-  background-color: #fefefe;
+  background-color: black;
   margin: auto;
   padding: 20px;
   padding-left: 50px;
@@ -170,7 +191,7 @@ a {
 /* form */
 
 .ket {
-  font-family: Helvetica, sans-serif;
+  font-family: poppins;
   margin-bottom: 8px;
   font-size: 15px;
 }
@@ -181,7 +202,7 @@ input[type="text"] {
 }
 
 label {
-  font-family: Helvetica, sans-serif;
+  font-family: poppins;
   font-size: 14px;
 }
 

@@ -1,3 +1,26 @@
+<?php
+require './php/functions.php';
+
+if (isset($_POST["submit"])) {
+  //cek data berhasil atau tidak masuk ke database
+  if (kontak($_POST) > 0) {
+    echo "
+              <script>
+                  alert('Pesan Berhasil Dikirim');
+                  document.location.href ='index.php';
+              </script>
+              ";
+  } else {
+    echo "
+          <script>
+              alert('Pesan Gagal Dikirim');
+              document.location.href ='index.php';
+          </script>
+          ";
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,7 +84,7 @@
   <div class="jumbotron">
     <h1 class="display-4">For Your Information !</h1>
     <p class="lead">Nothing the second with out the first.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Do the best</a>
+    <a class="btn btn-primary btn-lg" href="./pages/members.php" role="button">Do the best</a>
   </div>
 
   <!-- about -->
@@ -192,20 +215,20 @@
           <div class="col-md-10 col-lg-8 col-xl-7">
 
             <div class="tombol my-5">
-              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <form id="contactForm" method="POST">
                 <div class="form-floating">
-                  <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                  <input class="form-control" name="nama" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                   <label for="name">Name</label>
                   <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                 </div>
                 <div class="form-floating">
-                  <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
+                  <input class="form-control" name="email" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
                   <label for="email">Email address</label>
                   <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                   <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                 </div>
                 <div class="form-floating">
-                  <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
+                  <textarea name="pesan" class="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
                   <label for="message">Message</label>
                   <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                 </div>
@@ -224,7 +247,7 @@
                   <div class="text-center text-danger mb-3">Error sending message!</div>
                 </div>
                 <!-- Submit Button-->
-                <a class="btn btn-primary btn-lg" href="" role="button">Send</a>
+                <a class="btn btn-primary btn-lg" type="submit" href="" name="submit" role="button">Send</a>
               </form>
             </div>
           </div>

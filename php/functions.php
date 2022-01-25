@@ -61,6 +61,16 @@
 
         return mysqli_affected_rows($conn);
     }
-    ?>
 
-    
+    function kontak($input) {
+        global $conn;
+
+        $nama = htmlspecialchars($input["nama"]);
+        $email = htmlspecialchars($input["email"]);
+        $pesan = htmlspecialchars($input["pesan"]);
+
+        $query = "INSERT INTO anggota VALUES ('','$nama','$email','$pesan')";
+        mysqli_query($conn, $query);
+
+        return mysqli_affected_rows($conn);
+    }
