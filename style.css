@@ -240,7 +240,7 @@ input[type="submit"]:hover {
 
 /* footer */
 footer {
-  background: teal;
+  background: rgb(0, 85, 85);
   padding-top: 50px;
   padding-bottom: 70px;
 }

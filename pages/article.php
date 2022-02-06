@@ -23,7 +23,7 @@
 </head>
 
 <body>
-<!-- navbar -->
+  <!-- navbar -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow-sm" style="background-color: teal">
     <div class="container">
       <a class="navbar-brand" href="../index.php">C I D group</a>
@@ -74,12 +74,12 @@
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
           <p>
-            Seperti yang sudah ditulis di halaman About, divisi Informasi atau yang kita kenal dengan I'lan berawal dari divisi Bahasa yang dipecah menjadi dua yaitu Bahasa dan Informasi, harus dipecah dari divisi Bahasa ? kenapa tidak dari yang lain seperti Pengajaran ataupun Kebersihan. karena divisi kami setiap harinya menggunakan bahasa arab maupun inggris dan untuk bahasa diberi jadwal dua minggu satu kali, semisal dua minggu pertama dalam bulan Januari mengguankan bahasa Arab dan dua minggu akhir menggunakan bahasa Inggris, divisi kami adalah divisi yang bekerja harian dan memiliki jadwal yang harus teratur agar proker tidak ada yang terbengkalai dan dengan anggota enam orang seharusnya tidak ada masalah dan nyaman dalam menjalankannya.  
+            Seperti yang sudah ditulis di halaman About, divisi Informasi atau yang kita kenal dengan I'lan berawal dari divisi Bahasa yang dipecah menjadi dua yaitu Bahasa dan Informasi, harus dipecah dari divisi Bahasa ? kenapa tidak dari yang lain seperti Pengajaran ataupun Kebersihan. karena divisi kami setiap harinya menggunakan bahasa arab maupun inggris dan untuk bahasa diberi jadwal dua minggu satu kali, semisal dua minggu pertama dalam bulan Januari mengguankan bahasa Arab dan dua minggu akhir menggunakan bahasa Inggris, divisi kami adalah divisi yang bekerja harian dan memiliki jadwal yang harus teratur agar proker tidak ada yang terbengkalai dan dengan anggota enam orang seharusnya tidak ada masalah dan nyaman dalam menjalankannya.
           </p>
           <p>
             Anggota kami enam orang dan itu putra sedangkan ada juga putri yang jumlahnya sama enam orang, jadi kita akan bahas apa aja sih keseharian yang kami lakukan dari mulai bangun tidur 45 menit sebelum adzan subuh hingga malam sebelum semuanya beristirahat untuk melanjutkan kegiatan pada esok hari.
           </p>
-          <h2 class="section-heading">Rounddown Harian Kami</h2>
+          <h2 class="section-heading"> Keseharian Kami</h2>
           <p>
             Semisal adzan pukul 04:30 kami harus bangun lebih dulu untuk menekan bel pertama tepatnya pada pukul 03:45 untuk memberi tahukan kepada para santri bahwa waktu unntuk melaksankan shalat tahajud berjama'ah telah tiba juga memberi tahukan kepada santri yang ingin melaksanakan puasa sunah dan tak lupa membaca do'a bangun tidur. hingga pada pukul 04:00 kami menyalakan bel kedua untuk memberi tahukan para santri agar segera cepat menuju masjid dan segera melaksanakn shalat tahajud dan pada pukul 04:15 bel ketiga dibunyikan untuk memberi tahukan bahwa waktu shalat subuh akan segera tiba dan segera menuju masjid dan pada saat adzan dikumandangkan kami menjawab adzan terlebih dahulu setelah itu kami membaca do'a setelah adzan dan memberi peringatan terakhir segera menuju masjid untuk melaksanakan shalat subuh berjama'ah lalu kami bersiap-siap untuk mengikuti jama'ah juga.
           </p>
@@ -95,16 +95,16 @@
             10:00 angka di jam menunjukan, waktu istirahat sekolah pun selalu disambut dengan senang waktu 30 menit yang cukup berharga untuk tidak dinikmati, ketika lima menit waktu istirahat akan berakhir bel peringatan dibunyikan.
           </p>
           <p>
-            Di AL-ITTIHAD mempunyai waktu shalat berjama'ah tersendiri yaitu pukul 13:00 dan pada adzan dzuhur dikumandangkan sama ketika adzan subuh, kami menjawab adzan lalu membaca do'a setelahnya dan memberi peringatan untuk segera berkumpul di masjid dan kegiaten tersebut berjalan selama 30 menit. 
+            Di AL-ITTIHAD mempunyai waktu shalat berjama'ah tersendiri yaitu pukul 13:00 dan pada adzan dzuhur dikumandangkan sama ketika adzan subuh, kami menjawab adzan lalu membaca do'a setelahnya dan memberi peringatan untuk segera berkumpul di masjid dan kegiaten tersebut berjalan selama 30 menit.
           </p>
           <p>
-            Lalu setelah pukul 14:00 kami Ruangan Informasi untuk membuka pelayanan memanggil atau memberi tahu sampai pukul 15:00 dan pada pukul 15:00 tersebut bel dinyalakan sama seperti subuh bel pertama dibunyikan, 15 menit setelahnya bel kedua, lalu 10 menit setelahnya bel ketiga, dan pada pukul 15:30 adzan berkumandang dan hal yang sama dilakukan lagi seperti ketika waktu adzan yang lain.   
+            Lalu setelah pukul 14:00 kami Ruangan Informasi untuk membuka pelayanan memanggil atau memberi tahu sampai pukul 15:00 dan pada pukul 15:00 tersebut bel dinyalakan sama seperti subuh bel pertama dibunyikan, 15 menit setelahnya bel kedua, lalu 10 menit setelahnya bel ketiga, dan pada pukul 15:30 adzan berkumandang dan hal yang sama dilakukan lagi seperti ketika waktu adzan yang lain.
           </p>
           <p>
             Pukul 16:00 shalat asar berjama'ah selesai, kami pun bergegas dari masjid menuju Ruang Informasi untuk membunyikan bel lalu memberitahukan kegiatan mengaji asar akan dimulai dan yang terlambat akan diberi sangsi
           </p>
           <p>
-            Waktu berlalu dan pada pukul 17:00 pengajian selesai, kamipun membunyikan bel untuk setelahnya membaca do'a sore dan membacakan juga jadwal tandzif yang pagi dibacakan sekaligus memberi tahukan untuk segera bersiap-siap bagi yang melaksanakan puasa sunah, bel kedua pukul 17:30, dan bel ketiga pukul 17:45, adzan berkumandang pukul 17:50 dan hal yang sama dilakukan seperti adzan sebelumnya 
+            Waktu berlalu dan pada pukul 17:00 pengajian selesai, kamipun membunyikan bel untuk setelahnya membaca do'a sore dan membacakan juga jadwal tandzif yang pagi dibacakan sekaligus memberi tahukan untuk segera bersiap-siap bagi yang melaksanakan puasa sunah, bel kedua pukul 17:30, dan bel ketiga pukul 17:45, adzan berkumandang pukul 17:50 dan hal yang sama dilakukan seperti adzan sebelumnya
           </p>
           <p>
             Kegiatan shalat magrib selesai dan ini adalah ciri khas kami di mata para santri lainnya selagi menunggu shalat sunah ba'diah selesai kami selalu mempersiapkan terlebih apa yang aya akan kami bacakan di mimbar nanti dengan pakaian full attribute seperti jas OSIS IP3A, name tag, dan juga pin divisi khusus Informasi kami kenakan, setelah shalat sunah selesai kami selalu maju melalui pintu kanan masjid dan tentunya hati ini sudah tidak karuan gugupnya berjalan dihadapan ribuan santri yang siap mendengarkan di samping mimbar terlihat seorang yang kami kagumi tentunya pundaknya yang begitu lebar meski sudah tidak lagi kokoh namun beban yang beliau pikul melebihi besi yang atlet angkat besi selalu angkat, beliaulah pimpinan pondok Abi yang sedang berdzkir mendo'akan para santrinnya. ketika sudah berada disampingnya kami selalu membungkuk terlebih dahulu untuk memberikan hormat kami, sungguh menyedihkan memang ketika kami masih SMP kami selalu melihat kakak kelas kami sebelum berbicara dimimbar selalu mencium terlebih dahulu tangan Abi, dan sekarang ketika kami sudah memakai jas biru ini tidak bisa melakukan hal tersebut karena pandemi COVID-19 ini dan itulah harapan kami untuk kedepannya. Ohh iya jadi curhat, setelah membungkuk kamipun mengambil mic yang tidak jauh posisinya lalu berdiri diatas mimbar.
@@ -135,7 +135,7 @@
           <p>
             1. Salam pembuka
             <br>
-            2. Muqaddimah 
+            2. Muqaddimah
             <br>
             3. Memperkenalkan nama & perwakilan dari C I D
             <br>
@@ -154,45 +154,45 @@
           <p>
             Semangat untuk kalian yang sedang menjalaninya dan untuk generasi yang sedang mengejarnya, ingat pilihan kalian tidaklah salah.
           </p>
-          <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+          <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow.</blockquote>
           <h2 class="section-heading">Struktur Kepengurusan Putra</h2>
           <p>
-            Ketua                  : Haizar Erlangga
+            Ketua : Haizar Erlangga
             <br>
-            Wakil Ketua            : M. Faisal Tawakal Suhyani
+            Wakil Ketua : M. Faisal Tawakal Suhyani
             <br>
             Sekertaris & Bendahara : Maulana Rizkie Ramadhan
             <br>
-            Anggota : 
+            Anggota :
             <br>
-              Fahmi Sidiq
+            Fahmi Sidiq
             <br>
-              Mugis Yahya
+            Mugis Yahya
             <br>
-              Hydra Mauluda (alm)
+            Hydra Mauluda (alm)
           </p>
           <h2 class="section-heading">Struktur Kepengurusan Putri</h2>
           <p>
-            Ketua                  : Siti Afiatunnisa
+            Ketua : Siti Afiatunnisa
             <br>
-            Wakil Ketua            : Salma Nailatul Jannah
+            Wakil Ketua : Salma Nailatul Jannah
             <br>
             Sekertaris & Bendahara : Bintang Rahayu Putri
             <br>
             Anggota :
             <br>
-              Olivia Vajrin
+            Olivia Vajrin
             <br>
-              Siti Setiawati
+            Siti Setiawati
             <br>
-              Tiara Septiani    
+            Tiara Septiani
           </p>
           <span class="caption text-muted">
-          This place in Jl. Raya Bandung No.03, Bojong, Karangtengah, Kabupaten Cianjur, Jawa Barat 43281       
-          <a href="https://www.instagram.com/ponpes.al_ittihad/">Ponpes AL -ITTIHAD</a>
+            This place in Jl. Raya Bandung No.03, Bojong, Karangtengah, Kabupaten Cianjur, Jawa Barat 43281
+            <a href="https://www.instagram.com/ponpes.al_ittihad/">Ponpes AL -ITTIHAD</a>
             &middot; Images by
             <a href="https://www.instagram.com/altiemedia/">ALTIE MEDIA group</a>
-          </p>
+            </p>
         </div>
       </div>
     </div>
@@ -207,17 +207,17 @@
           </div>
           <div class="social-media">
             <a href="https://www.facebook.com/rizkie.rizkie.16121/" target="_blank">
-            <h1>
-              <ion-icon name="logo-facebook"></ion-icon>
+              <h1>
+                <ion-icon name="logo-facebook"></ion-icon>
             </a>
             <a href="https://www.instagram.com/r.zkie_/" target="_blank">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
             <a href="https://github.com/rizkie25" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
+              <ion-icon name="logo-github"></ion-icon>
             </a>
             <a href="https://www.figma.com/files/user/1052776460228515909?fuid=1052776460228515909" target="_blank">
-            <ion-icon name="logo-figma"></ion-icon>
+              <ion-icon name="logo-figma"></ion-icon>
             </a>
             </h1>
           </div>
